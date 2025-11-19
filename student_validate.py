@@ -8,9 +8,16 @@ if len(sys.argv) != 5:
     reg_no = sys.argv[2]
     email = sys.argv[3]
     dept = sys.argv[4]
+    
+valid=true
+if not reg_no is digit():
+    print("invalid registration")
+    
+if @ not in email():
+    print("please enter the correct email id")
 
 
-if:
+if valid:
     print("Registration successful!")
     print("student name:",name)
     print("Student Registration number:", reg_no)
