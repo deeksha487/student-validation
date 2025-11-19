@@ -10,12 +10,6 @@ if len(sys.argv) != 5:
     dept = sys.argv[4]
 
 
-valid = True
-
-if not reg_no.isdigit():
-    print("Invalid registration number, please enter the correct registration number:")
-    valid = False
-
 if valid:
     print("Registration successful!")
     print("student name:",name)
