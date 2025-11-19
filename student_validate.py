@@ -10,7 +10,7 @@ if len(sys.argv) != 5:
     dept = sys.argv[4]
 
 
-if valid:
+if:
     print("Registration successful!")
     print("student name:",name)
     print("Student Registration number:", reg_no)
