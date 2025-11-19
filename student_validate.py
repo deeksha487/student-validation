@@ -23,5 +23,4 @@ if valid:
 else:
     print("name:", "deeksha")
     print("reg_no:", 62)
-    print("email:", "deeksha@11")
     print("dept:", "bca")
