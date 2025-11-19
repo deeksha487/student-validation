@@ -1,7 +1,4 @@
 import sys
-if len(sys.argv)!=5:
-   print("usage:student_validate.py <name> <reg_no> <email> <dept>")
-   sys.exit()
 
 name=sys.argv[1]
 reg_no=sys.argv[2]
